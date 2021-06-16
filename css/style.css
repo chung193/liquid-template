@@ -133,7 +133,34 @@ body {
           vertical-align: top;
           border-top: 1px solid #dee2e6; }
     body .topbar .account-info {
-      left: -25px !important; }
+      border-top: 2px solid #dee2e6;
+      top: 6px !important;
+      right: 0;
+      left: auto;
+      min-width: 270px;
+      left: -25px !important;
+      padding-bottom: 0px !important; }
+      body .topbar .account-info .des {
+        font-size: 12px;
+        color: #999;
+        padding: 10px 0 0;
+        border-bottom: none !important; }
+      body .topbar .account-info li {
+        border-bottom: 1px solid #E5E5E5;
+        padding: 15px; }
+        body .topbar .account-info li a {
+          color: #17161f;
+          padding: 0;
+          font-size: 13px; }
+      body .topbar .account-info .btn {
+        color: #fff;
+        border: 0;
+        width: 100%;
+        border-radius: 40px;
+        padding: 14px 13px;
+        line-height: 16px;
+        text-transform: uppercase;
+        background: #FF9900; }
   body .header {
     padding: 10px 0; }
     body .header .nav-link, body .header .dropdown-item {

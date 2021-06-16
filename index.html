@@ -21,7 +21,7 @@
 	<div class="topbar">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-12 p-0 text-welcome">
+				<div class="col-md-6 col-12 text-welcome">
 					<p class="mb-0">Welcome to organic foods & Fruits</p>
 				</div>
 
@@ -29,11 +29,25 @@
 					<ul class="list-inline mb-0">
 						<li class="list-inline-item info-dropdown dropdown m-0" >
 							<a href="" id="dropdownMenuLink1" data-toggle="dropdown"><i class="fas fa-user"></i> My account</a>
-							<div class="dropdown-menu account-info" aria-labelledby="dropdownMenuLink1">
-								<a class="dropdown-item" href="#">123</a>
-								<a class="dropdown-item" href="#"> action</a>
-								<a class="dropdown-item" href="#">Something else here</a>
-							</div>
+								<ul class="dropdown-menu account-info"  aria-labelledby="dropdownMenuLink1" x-placement="bottom-start">
+									
+									<li>
+										<a href="#"><i class="fas fa-user"></i>My Account</a>
+									</li>
+									<li>
+										<a href="#"><i class="fas fa-suitcase-rolling"></i>My Orders</a>
+									</li>	
+									<li>
+										<a href="#"><i class="fas fa-heart"></i>Wishlist</a>
+									</li>
+									<li class="des text-center">If you are a new user</li>
+									<li class="text-center ">
+										<a href="#" class="font-weight-bold">Register Now</a>
+									</li>
+									<li>
+										<button class="btn" type="button" onclick="location.href='login_register.html'">Login</button>
+									</li>
+								</ul>
 						</li>
 						<li class="list-inline-item info-dropdown dropdown" >
 							<a href=""  id="dropdownMenuLink2" data-toggle="dropdown"><i class="fas fa-shopping-cart"></i> Cart</a>
