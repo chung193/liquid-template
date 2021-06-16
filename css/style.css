@@ -34,6 +34,14 @@ body {
   @media (min-width: 768px) and (max-width: 1023px) {
     body .onhover1 {
       bottom: 190px !important; } }
+  body .partner {
+    height: 111px;
+    overflow: hidden;
+    margin: 80px 0 80px 0; }
+    body .partner .box .img-fluid {
+      margin: 0 auto;
+      width: auto;
+      height: 100%; }
   @media (max-width: 479px) {
     body footer #newsletter .btn-news {
       margin-left: 0 !important;
@@ -59,6 +67,73 @@ body {
     body .topbar .social {
       padding: 15px;
       font-size: 12px; }
+    body .topbar .dropdown {
+      cursor: pointer; }
+    body .topbar .account-info, body .topbar .cart-info {
+      border-radius: 0 !important;
+      margin: 10px 0 0; }
+    body .topbar .cart-info {
+      left: -30px !important;
+      top: 6px !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important; }
+      body .topbar .cart-info .buttons {
+        background: #17161f;
+        padding: 12px 15px; }
+        body .topbar .cart-info .buttons .btn-primary {
+          background: transparent;
+          color: #fff;
+          text-align: center;
+          padding: 6px 11px;
+          border-radius: 40px;
+          border: 1px solid #fff;
+          font-size: 14px;
+          font-weight: 400;
+          text-transform: capitalize; }
+          body .topbar .cart-info .buttons .btn-primary i {
+            margin-right: 7px;
+            font-size: 12px; }
+        body .topbar .cart-info .buttons .btn-primary + .btn-primary {
+          margin-left: 15px; }
+        body .topbar .cart-info .buttons .btn-primary:hover {
+          background: #FF9900;
+          border: 1px solid #FF9900; }
+      body .topbar .cart-info .table {
+        padding: 0;
+        border-radius: 0 0 4px 4px;
+        transform: none !important;
+        min-width: 270px;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 0 !important;
+        background-color: transparent; }
+        body .topbar .cart-info .table td {
+          padding: 8px;
+          vertical-align: top;
+          border-top: 1px solid #dee2e6; }
+          body .topbar .cart-info .table td img {
+            border: 1px solid #E3E3E3;
+            width: 80px;
+            height: 70px; }
+          body .topbar .cart-info .table td a {
+            font-size: 13px; }
+          body .topbar .cart-info .table td .btn-danger {
+            background-color: #878787;
+            border-color: #878787;
+            border-radius: 50%;
+            padding: 2px 7px 1px; }
+          body .topbar .cart-info .table td h4 {
+            margin: 0;
+            font-size: 12px;
+            color: #9e9e9e; }
+            body .topbar .cart-info .table td h4 span {
+              float: right; }
+        body .topbar .cart-info .table th {
+          padding: 8px;
+          vertical-align: top;
+          border-top: 1px solid #dee2e6; }
+    body .topbar .account-info {
+      left: -25px !important; }
   body .header {
     padding: 10px 0; }
     body .header .nav-link, body .header .dropdown-item {
