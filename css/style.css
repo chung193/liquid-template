@@ -1,11 +1,43 @@
+@charset "UTF-8";
 body {
   font-family: 'Fira Sans', sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  /* Mixin */
+  /* Set các giá trị với màn hình tương ứng */ }
   body a {
     color: #FF9900; }
   body a:hover {
     text-decoration: none;
     color: #000; }
+  @media (max-width: 479px) {
+    body .about-text-center {
+      margin-top: 0 !important; } }
+  @media (max-width: 479px) {
+    body .about-text-center p {
+      padding-left: 30px !important;
+      padding-right: 30px !important; } }
+  @media (max-width: 479px) {
+    body .carousel-indicators {
+      bottom: 20px !important; } }
+  @media (max-width: 479px) {
+    body .product-thumb .image {
+      text-align: center; } }
+  @media (max-width: 479px) {
+    body .featuredbanner {
+      width: 100% !important; } }
+  @media (max-width: 479px) {
+    body .top_sell .image-fluid {
+      width: 80%; } }
+  @media (max-width: 479px) {
+    body .top_sell .box {
+      padding: 20px !important; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    body .onhover1 {
+      bottom: 190px !important; } }
+  @media (max-width: 479px) {
+    body footer #newsletter .btn-news {
+      margin-left: 0 !important;
+      margin-top: 15px !important; } }
   body .common-text {
     padding: 80px 0 50px; }
     body .common-text h4 {
@@ -22,6 +54,8 @@ body {
       border-right: 1px solid #D7D7D7;
       padding: 15px 25px;
       font-size: 12px; }
+      body .topbar .info-dropdown i {
+        width: 15px; }
     body .topbar .social {
       padding: 15px;
       font-size: 12px; }
@@ -69,7 +103,7 @@ body {
     position: absolute; }
     body .onhover1 button {
       background: #FF9900;
-      padding: 10px 8px;
+      padding: 8px;
       width: 40px;
       height: 40px;
       border: none;
@@ -147,7 +181,7 @@ body {
       padding: 0; }
       body .product-thumb1 .caption button {
         background: #FF9900;
-        padding: 6px 6px;
+        padding: 4px;
         color: #fff;
         border: none;
         border-radius: 50%;
