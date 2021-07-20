@@ -1,1 +1,1 @@
-Template Html for desktop
+Liquid template
