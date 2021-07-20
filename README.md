@@ -1,2 +1,2 @@
-# fruits-shop-template
-fruits-shop-template
+# liquid-template
+liquid-template
